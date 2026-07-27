@@ -5,9 +5,9 @@
     pip install ur_rtde
 
 运行方式：
-    python3 read_ur3_rtde.py
-    python3 read_ur3_rtde.py <robot_ip>
-    python3 read_ur3_rtde.py --output <output.jsonl>
+    python3 read_ur3_joint_angles.py
+    python3 read_ur3_joint_angles.py <robot_ip>
+    python3 read_ur3_joint_angles.py --output <output.jsonl>
 
 默认连接地址为 192.168.1.10。程序读取并打印 10 次关节角，
 读取频率为 125 Hz（周期 8 ms），关节角单位为弧度（rad）。
